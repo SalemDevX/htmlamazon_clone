@@ -235,4 +235,19 @@ footer{
         margin: 15px 0 5px;
         min-width: 300px;
     }
+    .box-col{
+        max-width: 48%;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .nav-country{
+        display: none;
+    }
+    .nav-language{
+        display: none;
+    }
+    .nav-text{
+        display: none;
+    }
 }
